@@ -1,0 +1,14 @@
+{
+    "items":[
+        {"key":"Americano",
+        "image":"./imgs/kiwi.png"},
+        {"key":"latte",
+            "image":"./imgs/kiwicoconut.png"},
+            {"key":"cappuchino",
+                "image":"./imgs/frap1.png"},
+                {"key":"flat white",
+                    "image":"./imgs/frap2.png"},
+                    {"key":"frappucino",
+                        "image":"./imgs/frap3.png"}
+    ]
+}

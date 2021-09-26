@@ -1,0 +1,110 @@
+:root {
+  /* color */
+  --color-black: #000000;
+  --color-green: #0a5703;
+  --color-grey-green: #aea985;
+  --color-white: #eeece0;
+  --color-brown: #725d54;
+  --color-dark-brown: #523629;
+
+  /* size */
+  --size-large: 40px;
+  --size-medium: 30px;
+  --size-small: 25px;
+  --size-micro: 16px;
+  --margin-top: 8px;
+}
+body {
+  background-color: var(--color-dark-brown);
+  display: flex;
+  flex-direction: column;
+}
+button {
+  border: none;
+  outline-style: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.logo {
+  width: 70px;
+  height: 70px;
+  margin: auto;
+}
+
+.title {
+  font-size: var(--size-large);
+  font-weight: bold;
+  color: var(--color-grey-green);
+  margin-top: var(--margin-top);
+}
+.date {
+  font-size: var(--size-small);
+  color: var(--color-grey-green);
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 500px;
+  background-color: var(--color-white);
+  margin: auto;
+  margin-top: var(--margin-top);
+}
+
+.pop-up {
+  margin: auto;
+}
+
+.pop-up--hide {
+  display: none;
+}
+.startButton,
+.replayButton,
+.exitButton {
+  width: 70px;
+  height: 70px;
+  color: var(--color-green);
+}
+
+.startButton {
+  width: 150px;
+  height: 50px;
+  margin: 8px auto;
+  border: 4px solid var(--color-green);
+  border-radius: 10px;
+  font-size: var(--size-small);
+}
+
+.startButton:hover {
+  transition: all 200ms ease-in;
+  transform: scale(1.1);
+}
+
+.replayButton {
+  position: relative;
+  top: -60px;
+  left: 170px;
+  font-size: var(--size-medium);
+}
+.replayButton:hover {
+  transition: all 200ms ease-in;
+  transform: scale(1.1);
+}
+
+.exitButton {
+  position: relative;
+  top: -60px;
+  left: 140px;
+  font-size: var(--size-medium);
+}
+.exitButton:hover {
+  transition: all 200ms ease-in;
+  transform: scale(1.1);
+}
