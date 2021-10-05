@@ -1,14 +1,14 @@
 {
-    "items":[
-        {"key":"Americano",
+    "drinks":[
+        {"name":"Americano",
         "image":"./imgs/kiwi.png"},
-        {"key":"latte",
-            "image":"./imgs/kiwicoconut.png"},
-            {"key":"cappuchino",
+        {"name":"latte",
+        "image":"./imgs/kiwicoconut.png"},
+            {"name":"cappuchino",
                 "image":"./imgs/frap1.png"},
-                {"key":"flat white",
+                {"name":"flat white",
                     "image":"./imgs/frap2.png"},
-                    {"key":"frappucino",
+                    {"name":"frappucino",
                         "image":"./imgs/frap3.png"}
     ]
 }
